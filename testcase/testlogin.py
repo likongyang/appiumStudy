@@ -30,4 +30,4 @@ class TestLogin(unittest.TestCase):
         assert Xueqiu.find(self._zixuan).text == "自选"
 
     def tearDown(self):
-        Xueqiu.toProfile().
+        Xueqiu.toProfile().toSetting()
