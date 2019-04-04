@@ -2,6 +2,7 @@
 from selenium.webdriver.common.by import By
 from page.basePage import BasePage
 from page.chooseLoginWay import ChooseLoginWay
+from page.setting import Setting
 
 
 class Profile(BasePage):
